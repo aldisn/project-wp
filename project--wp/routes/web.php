@@ -20,4 +20,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/',[HomeController::class, 'dashboard']);
+Route::get('/',[HomeController::class, 'TampilanGuru']);
