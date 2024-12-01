@@ -9,7 +9,7 @@ class HomeController extends Controller
 {
     public function Dashboard(){
         return view('Dashboard');
-        
+
     }
 
     public function index(){

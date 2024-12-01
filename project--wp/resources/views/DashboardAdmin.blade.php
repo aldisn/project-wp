@@ -188,7 +188,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">SDN 1 SUKASARI</a>
         </div>
       </div>
 
@@ -871,94 +871,374 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>6</h3>
+        <div class="row ">
 
-                <p>Kelas</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-log-in"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+<div class="col-6">
+<!-- small box -->
+<div class="small-box bg-gold">
+<div class="inner">
+<h3>4</h3>
+
+<p>Siswa</p>
+</div>
+<div class="icon">
+<i class="ion ion-person"></i>
+</div>
+<a href="#" class="small-box-footer">Lihat detail <i
+class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+
+<div class="col-6">
+<!-- small box -->
+<div class="small-box bg-pink">
+<div class="inner">
+<h3>10</h3>
+
+<p>Guru</p>
+</div>
+<div class="icon">
+<i class="ion ion-person-stalker"></i>
+</div>
+<a href="#" class="small-box-footer">Lihat detail <i
+class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+<div class="col-6">
+<!-- small box -->
+<div class="small-box bg-green">
+<div class="inner">
+<h3>16</h3>
+
+<p>Mata Pelajaran</p>
+</div>
+<div class="icon">
+<i class="ion ion-map"></i>
+</div>
+<a href="#" class="small-box-footer">Lihat detail <i
+class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+<div class="col-6">
+<!-- small box -->
+<div class="small-box bg-blue">
+<div class="inner">
+<h3>4</h3>
+
+<p>Kelas</p>
+</div>
+<div class="icon">
+<i class="ion ion-log-in"></i>
+</div>
+<a href="#" class="small-box-footer">Lihat detail <i
+class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+<div class="col-6">
+<!-- small box -->
+<div class="small-box bg-red">
+<div class="inner">
+<h3>53<sup style="font-size: 20px">%</sup></h3>
+
+<p>Penilaian Selesai</p>
+</div>
+<div class="icon">
+<i class="ion ion-ios-checkmark-outline"></i>
+</div>
+<a href="#" class="small-box-footer">Lihat detail <i
+class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+
+</div>
+</div>
+<div class="col-md-6 d-xs-none">
+<div class="timeline">
+                            <!-- timeline time label -->
+                            <div class="time-label ms-2">
+                                <span class="bg-emerald text-dark px-2">
+                                    <span class="pe-1 fas fa-bullhorn"></span> Informasi
+                                </span>
+
+                                                                  <button class="btn btn-transparent rounded-4 btn-md py-1 px-2 mb-1 fw-bold float-right me-3 align-items-center"
+                                    data-bs-target="#addInformasi" data-bs-toggle="modal">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="22" height="22" class="pb-1">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                    Informasi
+                                  </button>
+                                                            </div>
+
+                                                            <div>
+                                    <i class="fas fa-envelope bg-emerald"></i>
+                                    <div class="timeline-item">
+                                        <span class="time">
+                                                                                            1 detik yang lalu
+                                                                                        <i class="fas fa-clock"></i>
+                                        </span>
+                                        <h3 class="timeline-header"><a href="#" class="text-dark">
+                                                                                                    Elfin Pratama, S.T
+                                                                                            </a></h3>
+
+                                        <div class="timeline-body">
+                                            Dimohon agar segera mencetak rapot
+                                        </div>
+                                        <div class="timeline-footer d-flex justify-content-between">
+                                            <a class="btn btn-zinc rounded-2 text-secondary btn-sm" data-bs-toggle="modal"
+                                                data-bs-target="#showInformasiSM3">Lihat
+                                                detail</a>
+
+                                                                                        <button type="submit" class="btn btn-red btn-sm rounded-circle"
+                                                data-bs-target="#deleteInformasiSM3"
+                                                data-bs-toggle="modal">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="18" height="18">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                                                  </svg>
+                                            </button>
+                                                                                    </div>
+
+                                        <div class="modal fade" id="showInformasiSM3"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            rapot</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Dimohon agar segera mencetak rapot
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-dismiss="modal">Oke</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal fade" id="deleteInformasiSM3"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            Hapus Informasi
+                                                        </h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Data: <br>
+                                                        <b>rapot</b>
+
+                                                        <br> <br>
+                                                        Apakah anda yakin informasi tersebut akan dihapus?
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Batal</button>
+
+                                                        <form action="https://eraportk13.vanzdev.com/informasi/3"
+                                                            method="POST">
+                                                            <input type="hidden" name="_method" value="DELETE">                                                            <input type="hidden" name="_token" value="b8mQ2DbQtTZDLCIDZU29GRezMIeo9qAf4tHqRnqS">
+                                                            <button type="submit" class="btn btn-primary">Hapus</button>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                                            <div>
+                                    <i class="fas fa-envelope bg-emerald"></i>
+                                    <div class="timeline-item">
+                                        <span class="time">
+                                                                                            14 Juni 2023
+                                                                                        <i class="fas fa-clock"></i>
+                                        </span>
+                                        <h3 class="timeline-header"><a href="#" class="text-dark">
+                                                                                                    Elfin Pratama, S.T
+                                                                                            </a></h3>
+
+                                        <div class="timeline-body">
+                                            Untuk Wali Kelas dimohon untuk segera melakukan pe...
+                                        </div>
+                                        <div class="timeline-footer d-flex justify-content-between">
+                                            <a class="btn btn-zinc rounded-2 text-secondary btn-sm" data-bs-toggle="modal"
+                                                data-bs-target="#showInformasiSM1">Lihat
+                                                detail</a>
+
+                                                                                        <button type="submit" class="btn btn-red btn-sm rounded-circle"
+                                                data-bs-target="#deleteInformasiSM1"
+                                                data-bs-toggle="modal">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="18" height="18">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                                                  </svg>
+                                            </button>
+                                                                                    </div>
+
+                                        <div class="modal fade" id="showInformasiSM1"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            Perbaikan Data</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Untuk Wali Kelas dimohon untuk segera melakukan perbaikan Data Siswa. Terima kasih.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-dismiss="modal">Oke</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal fade" id="deleteInformasiSM1"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            Hapus Informasi
+                                                        </h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Data: <br>
+                                                        <b>Perbaikan Data</b>
+
+                                                        <br> <br>
+                                                        Apakah anda yakin informasi tersebut akan dihapus?
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Batal</button>
+
+                                                        <form action="https://eraportk13.vanzdev.com/informasi/1"
+                                                            method="POST">
+                                                            <input type="hidden" name="_method" value="DELETE">                                                            <input type="hidden" name="_token" value="b8mQ2DbQtTZDLCIDZU29GRezMIeo9qAf4tHqRnqS">
+                                                            <button type="submit" class="btn btn-primary">Hapus</button>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                                            <div>
+                                    <i class="fas fa-envelope bg-emerald"></i>
+                                    <div class="timeline-item">
+                                        <span class="time">
+                                                                                            18 Desember 2024
+                                                                                        <i class="fas fa-clock"></i>
+                                        </span>
+                                        <h3 class="timeline-header"><a href="#" class="text-dark">
+                                                                                                    Aldi Sugih Nugraha
+                                                                                            </a></h3>
+
+                                        <div class="timeline-body">
+                                            Untuk Seluruh Pengguna, dimohon untuk segera mengg...
+                                        </div>
+                                        <div class="timeline-footer d-flex justify-content-between">
+                                            <a class="btn btn-zinc rounded-2 text-secondary btn-sm" data-bs-toggle="modal"
+                                                data-bs-target="#showInformasiSM2">Lihat
+                                                detail</a>
+
+                                                                                        <button type="submit" class="btn btn-red btn-sm rounded-circle"
+                                                data-bs-target="#deleteInformasiSM2"
+                                                data-bs-toggle="modal">
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="18" height="18">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                                                  </svg>
+                                            </button>
+                                                                                    </div>
+
+                                        <div class="modal fade" id="showInformasiSM2"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            Keamanan Akun</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Untuk Seluruh Pengguna, dimohon untuk segera mengganti password akun. Terima kasih.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-bs-dismiss="modal">Oke</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="modal fade" id="deleteInformasiSM2"
+                                            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                                            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">
+                                                            Hapus Informasi
+                                                        </h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                            aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        Data: <br>
+                                                        <b>Keamanan Akun</b>
+
+                                                        <br> <br>
+                                                        Apakah anda yakin informasi tersebut akan dihapus?
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Batal</button>
+
+                                                        <form action="https://eraportk13.vanzdev.com/informasi/2"
+                                                            method="POST">
+                                                            <input type="hidden" name="_method" value="DELETE">                                                            <input type="hidden" name="_token" value="b8mQ2DbQtTZDLCIDZU29GRezMIeo9qAf4tHqRnqS">
+                                                            <button type="submit" class="btn btn-primary">Hapus</button>
+
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                
             </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-             <!-- small box -->
-             <div class="small-box bg-info">
-              <div class="inner">
-                <h3>90<sup style="font-size: 20px">%</sup></h3>
-
-                <p>Penilaian</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>24</h3>
-
-                <p>Siswa</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>12</h3>
-
-                <p>Guru</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>12</h3>
-
-                <p>Mata Pelajaran</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-        <!-- /.row -->
-        <!-- Main row -->
-
-        <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
+            
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2024<a href="https://adminlte.io">SDN 1 SUKASARI</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 3.2.0
