@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function TampilanGuru(){
-        return view('TampilanGuru');
+    public function login(){
+        return view('login');
 
     }
 
