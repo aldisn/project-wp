@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function TampilanGuru(){
-        return view('TampilanGuru');
+    public function TampilanAdmin(){
+        return view('TampilanAdmin');
     }
     public function index(){
         $data = User::get();

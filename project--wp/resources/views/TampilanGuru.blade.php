@@ -120,8 +120,8 @@
 
               </ul>
               </li>
-              <li class="nav-header"><b>MASTER DATA</b></li>
-              <li class="nav-item">
+            <li class="nav-header"><b>MASTER DATA</b></li>
+            <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
@@ -224,7 +224,7 @@
                 <i class="nav-icon fas fa-file"></i>
                       <p>Profil</p>
                   </a>
-              </li>
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -244,7 +244,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">User</li>
+              <li class="breadcrumb-item active">Guru</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -343,7 +343,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2024<a href="https://adminlte.io">SDN 01 SUKASARI</a>.</strong>
     All rights reserved.
   </footer>
 
