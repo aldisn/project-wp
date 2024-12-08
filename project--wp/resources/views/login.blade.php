@@ -193,13 +193,13 @@
         <div class="content-4-1 d-flex flex-column align-items-center h-100 flex-lg-row"
             style="font-family: 'Poppins', sans-serif; padding-top: 0px">
             <div class="position-relative d-none d-lg-block h-100 width-left bg-primary">
-                <img class="position-absolute img-fluid centered" src="{{ asset ('LTE/dist/img/tutwurilogo.png') }}"
+                <img class="position-absolute img-fluid centered" src="{{ asset ('LTE/dist/img/download.png') }}"
                     alt="" style="width: 400px;" />
             </div>
             <div id="page" class="d-flex mx-0 align-items-left justify-content-left width-right mx-lg-0">
                 <div class="right mx-lg-0 mx-auto">
                     <div class="align-items-center justify-content-center mb-3 pb-3 d-lg-none d-flex">
-                        <img src="{{ asset ('LTE/dist/img/tutwurilogo.png') }}" alt=""
+                        <img src="{{ asset ('LTE/dist/img/download.png') }}" alt=""
                             style="width: 200px;" />
                     </div>
                     <h3 class="title-text text-center mt-xs-3">Login E-RAPORT SDN 01 SUKASARI</h3>
@@ -278,7 +278,7 @@
                       <tr>
                         <th scope="row">1</th>
                         <td>Administrator</td>
-                        <td>elfinadmin</td>
+                        <td>ivanadmin</td>
                         <td>password</td>
                       </tr>
                       <tr>

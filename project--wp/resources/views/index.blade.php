@@ -6,16 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container>
+    <div class="container">
     <table border="1">
+        <thead>
         <tr>
             <td>Nama</td>
             <td>Email</td>
         </tr>
+        </thead>
+        <tbody>
+        @foreach ($data as $d)
         <tr>
-            <td>name</td>
-            <td>Email</td>           
+            <td>{{ $d['name'] }}</td>
+            <td>{{ $d['email'] }}</td>           
         </tr>
+        @endforeach
+    </tbody>
     </table>
     </div>
 </body>

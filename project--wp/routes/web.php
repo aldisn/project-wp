@@ -20,4 +20,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/',[HomeController::class, 'TampilanWaliSiswa']);
+Route::get('/',[HomeController::class, 'TampilanGuru']);

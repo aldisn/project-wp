@@ -7,14 +7,12 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function TampilanWaliSiswa(){
-        return view('TampilanWaliSiswa');
-
+    public function TampilanGuru(){
+        return view('TampilanGuru');
     }
-
     public function index(){
-        $Data = User::get();
+        $data = User::get();
 
-        return view('index', compact('Data'));
+        return view('index', compact('data'));
     }
 }
