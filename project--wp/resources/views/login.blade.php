@@ -278,7 +278,8 @@
                       <tr>
                         <th scope="row">1</th>
                         <td>Administrator</td>
-                        <td>ivanadmin</td>
+                        <td>ivanadmin
+                        </td>
                         <td>password</td>
                       </tr>
                       <tr>

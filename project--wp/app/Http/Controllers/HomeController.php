@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    public function datasiswa(){
+        return view('datasiswa');
+    }
     public function TampilanAdmin(){
         return view('TampilanAdmin');
     }

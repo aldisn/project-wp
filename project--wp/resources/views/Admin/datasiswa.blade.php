@@ -131,37 +131,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="resources/views/Admin/datasiswa.blade.php" class="nav-link">
+                <a href="resources/views/Admin/datasiswa" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Siswa</p>
                 </a>
+                </ul>
                 </li>
-              </li>
-              <li class="nav-item">
-                <a href="resources/views/Admin/datasiswa" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Wali Siswa</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="resources/views/Admin/datasiswa" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Guru</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="resources/views/Admin/datasiswa" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Admin</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="resources/views/Admin/datasiswa" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Akun</p>
-                </a> 
-              </ul>
-               </li>
               </li>
               <li class="nav-item">
             <a href="#" class="nav-link">
@@ -175,25 +150,37 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Sekolah</p>
+                  <p>Data Kelas</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Tahun Ajaran</p>
+                  <p>Input Nilai Sosial</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/boxed.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Kelas</p>
+                  <p>Input Nilai Spiritual</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/fixed-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Mapel</p>
+                  <p>Input Ketidakhadiran</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Input Catatan</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Input Prestasi</p>
                 </a>
               </li>
             </ul>
@@ -202,7 +189,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                <b>PENILAIAN</b>
+                PENILAIAN
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -210,45 +197,10 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Pembelajaran</p>
+                  <p>Input Nilai Pelajaran</p>
                 </a>
+                </ul>
                 </li>
-                <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Nilai Sosial</p>
-                </a>
-              </li>              <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Nilai Spiritual</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Ketidakhadiran</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Catatan</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Ekstrakulikuler</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Prestasi</p>
-                </a>
-              </li>
-              </ul>
               </li>
           <li class="nav-header"><b>RAPORT</b></li>
           <li class="nav-item">
